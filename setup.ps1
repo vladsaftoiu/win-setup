@@ -2,7 +2,7 @@
 # http://boxstarter.org/package/url?https://raw.githubusercontent.com/simonet1981/win-setup/master/setup.ps1
 
 $Boxstarter.RebootOk=$true      # Allow reboots?
-$Boxstarter.NoPassword=$true    # Is this a machine with no login password?
+#$Boxstarter.NoPassword=$true    # Is this a machine with no login password?
 #$Boxstarter.AutoLogin=$true     # Save my password securely and auto-login after a reboot
 
 Update-ExecutionPolicy RemoteSigned
@@ -24,16 +24,16 @@ cinst nugetpackageexplorer
 #cinst cshell
 cinst scriptcs
 #cinst linqpad
-cinst sublimetext3
-cinst install sublimetext3.packagecontrol
+#cinst sublimetext3
+#cinst install sublimetext3.packagecontrol
 
 #choco install fiddler4
-choco install 7zip
-cinst autohotkey
+#choco install 7zip
+#cinst autohotkey
 
 # Productivity
-choco install GoogleChrome
-cinst lastpass
+#choco install GoogleChrome
+#cinst lastpass
 
 # IIS Server
 #cinst webpi
@@ -55,7 +55,7 @@ cinst lastpass
 #Install-ChocolateyPinnedTaskBarItem "$env:SystemRoot\system32\WindowsPowerShell\v1.0\powershell.exe"
 
 # VSIS Packages
-cinst resharper -version 9.2.0.0
+#cinst resharper -version 9.2.0.0
 Install-ChocolateyVsixPackage TrailingWhitespaceVisualizer https://visualstudiogallery.msdn.microsoft.com/a204e29b-1778-4dae-affd-209bea658a59/file/135653/13/TrailingWhitespace.vsix
 Install-ChocolateyVsixPackage WebEssentials2015 https://visualstudiogallery.msdn.microsoft.com/ee6e6d8c-c837-41fb-886a-6b50ae2d06a2/file/146119/32/Web%20Essentials%202015%20v0.5.197.vsix
 Install-ChocolateyVsixPackage AddNewFile https://visualstudiogallery.msdn.microsoft.com/3f820e99-6c0d-41db-aa74-a18d9623b1f3/file/140782/17/Add%20New%20File%20v2.1.39.vsix
