@@ -1,5 +1,5 @@
 # Copy and paste in IE
-# http://boxstarter.org/package/url?https://raw.githubusercontent.com/simonet1981/win-setup/master/setup.ps1
+# http://boxstarter.org/package/url?https://https://raw.githubusercontent.com/simonet1981/win-setup/master/setup.ps1
 
 $Boxstarter.RebootOk=$true      # Allow reboots?
 #$Boxstarter.NoPassword=$true    # Is this a machine with no login password?
