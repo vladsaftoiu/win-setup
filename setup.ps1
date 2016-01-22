@@ -61,6 +61,7 @@ Install-ChocolateyVsixPackage TrailingWhitespaceVisualizer https://visualstudiog
 Install-ChocolateyVsixPackage WebEssentials2015 https://visualstudiogallery.msdn.microsoft.com/ee6e6d8c-c837-41fb-886a-6b50ae2d06a2/file/146119/32/Web%20Essentials%202015%20v0.5.197.vsix
 Install-ChocolateyVsixPackage AddNewFile https://visualstudiogallery.msdn.microsoft.com/3f820e99-6c0d-41db-aa74-a18d9623b1f3/file/140782/17/Add%20New%20File%20v2.1.39.vsix
 Install-ChocolateyVsixPackage OpenCommandLine https://visualstudiogallery.msdn.microsoft.com/4e84e2cf-2d6b-472a-b1e2-b84932511379/file/151803/12/Open%20Command%20Line%20v1.7.121.vsix
+Install-ChocolateyVsixPackage DebugAttachManager https://visualstudiogallery.msdn.microsoft.com/6a667daf-be94-4be5-a92a-71732b8dd60a/file/124459/13/DebugAttachHistory.vsix
 
 # Install chocolatey
 iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
