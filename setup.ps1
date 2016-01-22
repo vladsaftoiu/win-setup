@@ -30,6 +30,7 @@ cinst scriptcs
 #choco install fiddler4
 #choco install 7zip
 #cinst autohotkey
+choco install nodejs
 
 # Productivity
 #choco install GoogleChrome
