@@ -23,7 +23,7 @@ cinst nugetpackageexplorer
 
 #cinst cshell
 cinst scriptcs
-#cinst linqpad
+cinst linqpad
 #cinst sublimetext3
 #cinst install sublimetext3.packagecontrol
 
