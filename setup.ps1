@@ -17,6 +17,7 @@ cinst git --params="/GitAndUnixToolsOnPath"
 cinst git-credential-winstore
 cinst poshgit
 cinst tortoisegit
+cinst winmerge
 
 cinst nuget.commandline
 cinst nugetpackageexplorer
