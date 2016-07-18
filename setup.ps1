@@ -28,14 +28,19 @@ cinst linqpad
 #cinst sublimetext3
 #cinst install sublimetext3.packagecontrol
 
-#choco install fiddler4
-#choco install 7zip
+choco install fiddler4
+choco install 7zip
 #cinst autohotkey
 choco install nodejs
 
 # Productivity
-#choco install GoogleChrome
-#cinst lastpass
+choco install googlechrome
+choco install notepadplusplus
+choco install mremoteng
+choco install redis-desktop-manager 
+
+choco install paint.net 
+choco install skype 
 
 # IIS Server
 #cinst webpi
@@ -66,14 +71,6 @@ Install-ChocolateyVsixPackage DebugAttachManager https://visualstudiogallery.msd
 
 # Install chocolatey
 iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
-
-#Autologon
-# type WIN+R -> netplwiz
-# because this doesn't work
-#$RegPath = "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon"
-#Set-ItemProperty $RegPath "AutoAdminLogon" -Value "1" -type String
-#Set-ItemProperty $RegPath "DefaultUsername" -Value "max" -type String
-#Set-ItemProperty $RegPath "DefaultPassword" -Value "max" -type String
 
 # Filesystem
 #New-Item -Path C:\ -Name Temp -ItemType Directory
