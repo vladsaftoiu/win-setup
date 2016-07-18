@@ -5,7 +5,7 @@ $Boxstarter.RebootOk=$true      # Allow reboots?
 #$Boxstarter.NoPassword=$true    # Is this a machine with no login password?
 #$Boxstarter.AutoLogin=$true     # Save my password securely and auto-login after a reboot
 
-Update-ExecutionPolicy RemoteSigned
+#Update-ExecutionPolicy RemoteSigned
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowFileExtensions -EnableShowFullPathInTitleBar
 #Enable-RemoteDesktop
 
