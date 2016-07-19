@@ -8,7 +8,7 @@ $Boxstarter.RebootOk=$true      # Allow reboots?
 Update-ExecutionPolicy RemoteSigned
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowFileExtensions -EnableShowFullPathInTitleBar
 #Enable-RemoteDesktop
-u
+
 # Dev Tools
 cinst conemu
 #cinst powershell
