@@ -38,6 +38,7 @@ choco install googlechrome
 choco install notepadplusplus
 choco install mremoteng
 choco install redis-desktop-manager 
+choco install openvpn
 
 choco install paint.net 
 choco install skype 
