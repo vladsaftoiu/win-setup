@@ -41,7 +41,7 @@ choco install redis-desktop-manager
 
 choco install paint.net 
 choco install skype 
-
+choco install slack
 # IIS Server
 #cinst webpi
 #cinst -source windowsfeatures IIS-WebServerRole IIS-WebServer
