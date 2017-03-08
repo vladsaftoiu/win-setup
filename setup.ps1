@@ -31,7 +31,7 @@ cinst linqpad
 choco install fiddler4
 choco install 7zip
 #cinst autohotkey
-choco install nodejs
+#choco install nodejs
 
 # Productivity
 choco install googlechrome
@@ -39,7 +39,11 @@ choco install notepadplusplus
 choco install mremoteng
 choco install redis-desktop-manager 
 choco install openvpn
-
+choco install postman
+choco install soapui
+choco install resharper-platform
+choco install snaketail
+ 
 choco install paint.net 
 choco install skype 
 choco install slack
@@ -63,7 +67,7 @@ choco install slack
 #Install-ChocolateyPinnedTaskBarItem "$env:SystemRoot\system32\WindowsPowerShell\v1.0\powershell.exe"
 
 # VSIS Packages
-#cinst resharper -version 9.2.0.0
+
 Install-ChocolateyVsixPackage TrailingWhitespaceVisualizer https://visualstudiogallery.msdn.microsoft.com/a204e29b-1778-4dae-affd-209bea658a59/file/135653/13/TrailingWhitespace.vsix
 Install-ChocolateyVsixPackage WebEssentials2015 https://visualstudiogallery.msdn.microsoft.com/ee6e6d8c-c837-41fb-886a-6b50ae2d06a2/file/146119/32/Web%20Essentials%202015%20v0.5.197.vsix
 Install-ChocolateyVsixPackage AddNewFile https://visualstudiogallery.msdn.microsoft.com/3f820e99-6c0d-41db-aa74-a18d9623b1f3/file/140782/17/Add%20New%20File%20v2.1.39.vsix
