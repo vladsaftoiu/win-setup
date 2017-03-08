@@ -42,7 +42,7 @@ choco install openvpn
 choco install postman
 choco install soapui
 choco install resharper-platform
-choco install snaketail
+choco install baretail
  
 choco install paint.net 
 choco install skype 
