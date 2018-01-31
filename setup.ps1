@@ -7,7 +7,7 @@
 #Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowFileExtensions -EnableShowFullPathInTitleBar
 
 # Dev Tools
-#cinst python -y
+cinst python -y
 #cinst conemu -y
 #cinst git --params="/GitAndUnixToolsOnPath" -y
 #cinst git-credential-winstore -y
